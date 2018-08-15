@@ -7,10 +7,10 @@
 #mod '<user_puppetforge>-memcached'
 #mod '<user_puppetforge>-mysqlserver'
 
-mod 'puppet-webserver',
-  :git => 'https://github.com/bbranco89/puppet-webserver.git',
-  :branch => 'homolog'
-
-mod 'puppet-balancer',
-  :git => 'https://github.com/bbranco89/puppet-balancer.git',
+mod 'puppet-confsbase',
+  :git => 'https://github.com/bbranco89/puppet-confsbase.git',
   :branch => 'production'
+
+#mod 'puppet-balancer',
+ # :git => 'https://github.com/bbranco89/puppet-balancer.git',
+ # :branch => 'production'
